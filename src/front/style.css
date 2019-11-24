@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+
+html, body, .capa {
+	height: 100%;
+	
+}
+
+body {
+	background: url('imagem/fundo.jpg'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+	color: #e78d05;
+	background: none;
+}
+
+/* -- Imagem de capa -- */
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: left;
+	padding-left: 35px;
+	padding-top: 240px;
+	color:  white;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Lobster';
+}
+
+@media screen and (max-width: 480px) {
+   .texto-capa {
+	    padding-left: 0; 
+  	}
+  	.img_quem{
+  		width: 90%;
+  	}
+  	.comentarios{
+  		width: 100%
+  	}
+
+  	.rodape{
+  		al
+  	}
+}
+@media screen and (max-width: 767px) {
+	.comentarios{
+  		width: 100%
+  	}
+}
+@media screen and (min-width: 768px) {
+    .comentarios{
+  		width: 40%
+  	}
+
+}
+
+.btn-custom {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 800px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-branco:hover {
+  background-color:  #e6005c;
+  color: white;
+}
+/* -- secao servico -- */
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+
+/* -- recursos -- */
+#recursos {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+
+/* -- rodape -- */
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+
+/* ========================= Tipografia ======================== */
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+/* Media queries */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	h1 {
+	    font-size: 50px; 
+  	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+	    font-size: 70px; 
+  	}
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1 {
+	    font-size: 80px; 
+  	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+	    font-size: 100px; 
+  	}
+}
+/* Fim Media queries */
+
+
+h2{
+	color: #3e107c;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	font-family: 'Lobster';
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#servicos h2, #servicos h3 {
+	color: #7c25f8;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}

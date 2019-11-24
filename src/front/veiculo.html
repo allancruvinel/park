@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+     <meta charset="utf-8">
+      <script src="script.js"></script>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <link href="flip-carousel.css" rel="stylesheet">
+      <noscript>
+      <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+      </noscript>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+      </noscript>
+     <link rel="icon" href="imagens/logo.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style-login.css" rel="stylesheet">
+  </head>
+
+
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12" align="center">
+            <img src="https://cdn.dribbble.com/users/1726478/screenshots/3739184/car-dealer-gif.gif">
+            <h3> Cadastre -se  </h3>
+        <form>
+               <div class="form-group col-md-4">
+              <label for="Nome"> Nome Completo </label>
+               <input type="text" class="form-control" id="nomeCompleto"  placeholder="Digite seu nome completo">
+      </div>
+       <div class="form-group col-md-4">
+              <label for="cpf"> CPF </label>
+               <input type="text" class="form-control" id="cpf"  placeholder="Digite seu CPF">
+      </div>
+       <div class="form-group col-md-4">
+              <label for="senha"> Senha </label>
+               <input type="password" class="form-control" id="senha"  maxlength="10"  placeholder="Digite sua senha">
+      </div>
+
+          <div class="form-group col-md-4">
+              <label for="Marca">Marca do Veículo </label>
+               <input type="text" class="form-control" id="marcaVeiculo"  placeholder="Digite a Marca do seu veículo">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="modelo">Modelo</label>
+    <input type="text" class="form-control" id="modeloVeiculo" placeholder="Digite o modelo do seu Veículo">
+  </div>
+   <div class="form-group col-md-4">
+        <label for="modelo">Cor</label>
+    <input type="text" class="form-control" id="corVeiculo" placeholder="Digite a cor do seu veículo">
+  </div>
+   <div class="form-group col-md-4">
+        <label for="modelo">Placa</label>
+    <input type="text" class="form-control" id="placaVeiculo" placeholder="Digite a placa do seu Veículo">
+  </div>
+
+  <div class="form-group col-md-4">
+      <label for="inputTipo">Tipo de Veículo</label>
+      <select id="inputState" class="form-control">
+        <option selected>Carro</option>
+        <option>Moto</option>
+      </select>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="modelo">Observações</label>
+    <input type="text" class="form-control" id="obs" placeholder="Observações">
+  </div>
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1"> Aceito os termos de uso</label>
+  </div>
+  <button type="submit" onclick="Validar()"class="btn btn-primary">Cadastrar </button>
+</form>
+
+<small> Todos os direitos reservados </small>
+</body>
